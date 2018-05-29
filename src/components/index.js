@@ -1,74 +1,22 @@
-// ##############################
-// // // Cards
-// #############################
-
-import ChartCard from "./Cards/ChartCard.jsx";
-import ProfileCard from "./Cards/ProfileCard.jsx";
+// Cards
 import RegularCard from "./Cards/RegularCard.jsx";
-import StatsCard from "./Cards/StatsCard.jsx";
-import TasksCard from "./Cards/TasksCard.jsx";
 
-// ##############################
-// // // CustomButtons
-// #############################
+// Header
+import Header from "./Header/Header.jsx"
 
-import Button from "./CustomButtons/Button.jsx";
-import IconButton from "./CustomButtons/IconButton.jsx";
-
-// ##############################
-// // // CustomInput
-// #############################
-
-import CustomInput from "./CustomInput/CustomInput.jsx";
-
-// ##############################
-// // // Footer
-// #############################
-
+// Footer
 import Footer from "./Footer/Footer.jsx";
 
-// ##############################
-// // // Grid
-// #############################
-
+// Grid
 import ItemGrid from "./Grid/ItemGrid.jsx";
 
-// ##############################
-// // // Header
-// #############################
-
-import Header from "./Header/Header.jsx";
-import HeaderLinks from "./Header/HeaderLinks.jsx";
-
-// ##############################
-// // // Sidebar
-// #############################
-
+// Sidebar
 import Sidebar from "./Sidebar/Sidebar.jsx";
 
-// ##############################
-// // // Snackbar
-// #############################
-
-import Snackbar from "./Snackbar/Snackbar.jsx";
-import SnackbarContent from "./Snackbar/SnackbarContent.jsx";
-
-// ##############################
-// // // Table
-// #############################
-
+// Table
 import Table from "./Table/Table.jsx";
 
-// ##############################
-// // // Tasks
-// #############################
-
-import Tasks from "./Tasks/Tasks.jsx";
-
-// ##############################
-// // // Typography
-// #############################
-
+// Typo
 import P from "./Typography/P.jsx";
 import Quote from "./Typography/Quote.jsx";
 import Muted from "./Typography/Muted.jsx";
@@ -82,33 +30,18 @@ import A from "./Typography/A.jsx";
 
 export {
   // Cards
-  ChartCard,
-  ProfileCard,
   RegularCard,
-  StatsCard,
-  TasksCard,
-  // CustomButtons
-  Button,
-  IconButton,
-  // CustomInput
-  CustomInput,
+  // Header
+  Header,
   // Footer
   Footer,
   // Grid
   ItemGrid,
-  // Header
-  Header,
-  HeaderLinks,
   // Sidebar
   Sidebar,
-  //Snackbar
-  Snackbar,
-  SnackbarContent,
   // Table
   Table,
-  // Tasks
-  Tasks,
-  // Typography
+  // Typo
   P,
   Quote,
   Muted,

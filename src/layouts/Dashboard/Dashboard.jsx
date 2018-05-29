@@ -6,6 +6,7 @@ import PerfectScrollbar from "perfect-scrollbar";
 import "perfect-scrollbar/css/perfect-scrollbar.css";
 import { withStyles } from "material-ui";
 import { Header, Footer, Sidebar } from "components";
+import Web3Service from 'services/Web3Service';
 
 
 import dashboardRoutes from "routes/dashboard.jsx";
@@ -50,7 +51,7 @@ class App extends React.Component {
       <div className={classes.wrapper}>
         <Sidebar
           routes={dashboardRoutes}
-          logoText={"Creative Tim"}
+          logoText={"BITKUP"}
           logo={logo}
           image={image}
           handleDrawerToggle={this.handleDrawerToggle}
@@ -62,6 +63,7 @@ class App extends React.Component {
           <Header
             routes={dashboardRoutes}
             handleDrawerToggle={this.handleDrawerToggle}
+            web3={Web3Service}
             {...rest}
           />
           {/* On the /maps route we want the map to be on full screen - this is not possible if the content and conatiner classes are present because they have some paddings which would make the map smaller */}

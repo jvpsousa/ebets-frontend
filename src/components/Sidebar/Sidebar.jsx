@@ -12,8 +12,6 @@ import {
   ListItemText
 } from "material-ui";
 
-import { HeaderLinks } from "components";
-
 import sidebarStyle from "assets/jss/material-dashboard-react/sidebarStyle.jsx";
 
 const Sidebar = ({ ...props }) => {
@@ -81,7 +79,6 @@ const Sidebar = ({ ...props }) => {
         >
           {brand}
           <div className={classes.sidebarWrapper}>
-            <HeaderLinks />
             {links}
           </div>
           {image !== undefined ? (
